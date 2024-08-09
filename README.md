@@ -1,5 +1,5 @@
-# jim-mining
-FiveM Custom QBCORE mining script by me from scratch
+# jim-mining-roxwood
+FiveM Custom QBCORE mining script by Jimathy / Infinity Labs
 
 - Highly customisable via config.lua
   - Locations are easily changeable/removable
@@ -42,6 +42,7 @@ FiveM Custom QBCORE mining script by me from scratch
   ![General](https://i.imgur.com/g8nqbvN.jpeg)
 
 - Should be easy to understand and add/remove items you want or not
+- 
 ## Dependencies
 - qb-menu - for the menus
 - qb-target - for the third eye selection
@@ -55,13 +56,13 @@ If you want to use your own items or repurpose this script:
 ensure jim-mining
 ```
 If you want to use my items then:
-
 - Add the images to your inventory folder
-
 - Put these lines in your items.lua
-
 ```lua
-	-- jim-mining stuff
+
+-- jim-mining stuff
+["charcoal"] 					 	 = {["name"] = "charcoal", 			  	  		["label"] = "Charcoal", 					["weight"] = 250, 		["type"] = "item", 		["image"] = "charcoal.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false, ["combinable"] = nil,   ["description"] = "Charcoal, a base ore."},
+
 ["stone"] 		 	 			 = {["name"] = "stone",           				["label"] = "Stone",	 				["weight"] = 2000, 	    ["type"] = "item", 		["image"] = "stone.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false, ["combinable"] = nil,   ["description"] = "Stone woo"},
 
 ["uncut_emerald"] 				 = {["name"] = "uncut_emerald", 			  	["label"] = "Uncut Emerald", 			["weight"] = 100, 		["type"] = "item", 		["image"] = "uncut_emerald.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false, ["combinable"] = nil,   ["description"] = "A rough Emerald"},
