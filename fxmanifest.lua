@@ -1,7 +1,7 @@
 name "Jim-Mining"
-author "Jimathy"
-version "v2.4.3"
-description "Mining Script By Jimathy"
+author "Infinity Labs / Jimathy"
+version "v2.4.5"
+description "Mining Script By Jimathy - Including Roxwood Mines (By Infinity Labs)"
 fx_version "cerulean"
 game "gta5"
 
